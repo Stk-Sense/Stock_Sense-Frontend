@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { type BacktestData, type TabType } from '../types';
 
 interface BacktestTableProps {

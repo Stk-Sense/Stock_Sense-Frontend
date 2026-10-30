@@ -1,1 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+:root {
+  --ink: #1f2328;
+  --muted: #656d76;
+  --line: #d0d7de;
+  --soft: #f6f8fa;
+  --pos: #1a7f4b;
+  --neg: #c9302c;
+}
+.tabular { font-variant-numeric: tabular-nums; }

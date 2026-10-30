@@ -1,5 +1,5 @@
-import React from 'react';
-import { LayoutDashboard, BarChart3, Layers, PlusCircle, History, PlayCircle } from 'lucide-react';
+
+import { BarChart3, History, Layers, LayoutDashboard, PlayCircle, PlusCircle } from 'lucide-react';
 import { type TabType } from '../types';
 
 interface SidebarProps {

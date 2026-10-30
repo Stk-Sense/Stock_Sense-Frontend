@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { type MetricCardProps } from '../types';
 
 export default function MetricCard({ label, value }: MetricCardProps) {

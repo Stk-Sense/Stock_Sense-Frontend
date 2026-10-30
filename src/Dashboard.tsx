@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
 import { LogOut, PlusCircle, TrendingUp } from 'lucide-react';
-import { type TabType, type BacktestData } from './types';
-import Sidebar from './components/Sidebar';
-import MetricCard from './components/MetricCard';
+import { useEffect, useState } from 'react';
 import BacktestTable from './components/BacktestTable';
+import MetricCard from './components/MetricCard';
+import Sidebar from './components/Sidebar';
+import { type BacktestData, type TabType } from './types';
 
 // Mock data remains isolated here as requested until your backend API hooks are ready
 const MOCK_API_RESPONSE = {
